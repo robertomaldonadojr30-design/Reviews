@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Roberto Tonge</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #e8c96e;
+    --dark: #111111;
+    --dark-2: #1a1a1a;
+    --dark-3: #222222;
+    --text: #f0ede6;
+    --text-muted: #888880;
+    --border: rgba(201,168,76,0.2);
+  }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .monogram {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 2px;
+  }
+
+  .name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    line-height: 1.1;
+  }
+
+  .tagline {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 400;
+  }
+
+  .divider {
+    width: 40px;
+    height: 1px;
+    background: var(--border);
+    margin: 0.25rem auto;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    border-color: rgba(201,168,76,0.5);
+    background: var(--dark-3);
+    transform: translateY(-1px);
+  }
+
+  .card:active {
+    transform: translateY(0);
+  }
+
+  .platform-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .card-text {
+    flex: 1;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+
+  .card-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .arrow {
+    color: var(--gold);
+    font-size: 18px;
+    opacity: 0.7;
+    flex-shrink: 0;
+  }
+
+  .footer {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  .footer a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .header { animation: fadeUp 0.5s ease both; }
+  .cards { animation: fadeUp 0.5s 0.15s ease both; }
+  .footer { animation: fadeUp 0.5s 0.25s ease both; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="monogram">RT</div>
+    <div class="name">Roberto Tonge</div>
+    <div class="tagline">Realtor &amp; Mortgage Loan Officer</div>
+    <div class="divider"></div>
+    <p class="subtitle">Your review means everything. Choose a platform below to share your experience.</p>
+  </div>
+
+  <div class="cards">
+
+    <a class="card" href="https://www.google.com/maps/place/Roberto+Tonge/@28.0353336,-82.4875011,17z/data=!4m8!3m7!1s0x88c2c398f61b1d59:0x36b5689b3aeb0287!8m2!3d28.0353336!4d-82.4875011!9m1!1b1!16s%2Fg%2F11r_dkrl_b?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+      <div class="platform-icon" style="background:#1a2035;">
+        <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/>
+          <path fill="#34A853" d="M6.3 14.7l7 5.1C15.2 15.8 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/>
+          <path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.6-5.3l-6.7-5.5C29.8 36.7 27 37.5 24 37.5c-6.1 0-11.3-4.1-13.1-9.7l-7 5.4C7.3 41.1 15 46 24 46z"/>
+          <path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.8-4.8 6.2l6.7 5.5C42.1 36.3 46 30.8 46 24c0-1.3-.2-2.7-.5-4z"/>
+        </svg>
+      </div>
+      <div class="card-text">
+        <div class="card-title">Google</div>
+        <div class="card-sub">Leave a review on Google Maps</div>
+      </div>
+      <span class="arrow">&#8599;</span>
+    </a>
+
+    <a class="card" href="https://www.zillow.com/reviews/write?s=X1-ZUuxvoxp37uqkp_9hc6g" target="_blank" rel="noopener">
+      <div class="platform-icon" style="background:#001f5b;">
+        <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#006AFF" d="M24 4L4 20h6v24h28V20h6L24 4zm0 28a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
+        </svg>
+      </div>
+      <div class="card-text">
+        <div class="card-title">Zillow</div>
+        <div class="card-sub">Write a review on Zillow</div>
+      </div>
+      <span class="arrow">&#8599;</span>
+    </a>
+
+    <a class="card" href="https://www.facebook.com/TOPAGENTRT/reviews" target="_blank" rel="noopener">
+      <div class="platform-icon" style="background:#0d1f3c;">
+        <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#1877F2" d="M48 24C48 10.7 37.3 0 24 0S0 10.7 0 24c0 12 8.8 21.9 20.3 23.7V31h-6v-7h6v-5.3c0-6 3.5-9.3 9-9.3 2.6 0 5.3.5 5.3.5V16h-3c-3 0-3.9 1.8-3.9 3.7V24h6.6l-1.1 7H27.7v16.7C39.2 45.9 48 36 48 24z"/>
+        </svg>
+      </div>
+      <div class="card-text">
+        <div class="card-title">Facebook</div>
+        <div class="card-sub">Review on Facebook</div>
+      </div>
+      <span class="arrow">&#8599;</span>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    Tampa, FL &nbsp;&middot;&nbsp; <a href="tel:8133557447">813-355-7447</a> &nbsp;&middot;&nbsp; <a href="https://loansbyroberto.com" target="_blank">loansbyroberto.com</a>
+  </div>
+
+</div>
+</body>
+</html>
